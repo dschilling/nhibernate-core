@@ -505,6 +505,9 @@
     <Compile Include="NHSpecificTest\AccessAndCorrectPropertyName\Model.cs" />
     <Compile Include="NHSpecificTest\BagWithLazyExtraAndFilter\Domain.cs" />
     <Compile Include="NHSpecificTest\BagWithLazyExtraAndFilter\Fixture.cs" />
+    <Compile Include="NHSpecificTest\NH2033\Customer.cs" />
+    <Compile Include="NHSpecificTest\NH2033\CustomerAddress.cs" />
+    <Compile Include="NHSpecificTest\NH2033\Fixture.cs" />
     <Compile Include="NHSpecificTest\EntityNameAndCompositeId\Fixture.cs" />
     <Compile Include="NHSpecificTest\EntityNameAndInheritance\Fixture.cs" />
     <Compile Include="NHSpecificTest\EntityNameWithFullName\Fixture.cs" />
@@ -2473,6 +2476,7 @@
     <EmbeddedResource Include="NHSpecificTest\NH1291AnonExample\Mappings.hbm.xml" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="NHSpecificTest\NH2033\Mappings.hbm.xml" />
     <EmbeddedResource Include="NHSpecificTest\AccessAndCorrectPropertyName\DogMapping.hbm.xml" />
     <EmbeddedResource Include="NHSpecificTest\AccessAndCorrectPropertyName\PersonMapping.hbm.xml" />
     <EmbeddedResource Include="NHSpecificTest\NH2507\Mappings.hbm.xml" />
